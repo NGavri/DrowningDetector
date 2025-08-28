@@ -26,7 +26,7 @@ if st.sidebar.button("About"):
     st.session_state.page = "About"
     
 if st.session_state.page == "Home":
-    st.write("Upload an image and the AI will predict if the person is drowning or not.")
+    st.write("Upload an image and the AI will detect if the person is drowning or not.")
 
     # File uploader
     uploaded_file = st.file_uploader("", type=["jpg", "jpeg", "png"])
@@ -71,5 +71,6 @@ elif st.session_state.page == "About":
     **Curious about AI beyond the usual?**  
     I also run a blog — [**Synapse and Steel**](https://synapseandsteel.wordpress.com/?_gl=1*1wk53el*_gcl_au*MTUyNDU2NzIzNy4xNzUxMTE3NzEx). It's part journal, part tech talk, and part “oops, I did that.”
     Feel free to explore and maybe chuckle once or twice.
+
 
     """)
