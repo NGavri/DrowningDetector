@@ -11,7 +11,7 @@ Drowning Detection AI is a machine learning web app that detects whether a perso
 🌐 Web Interface — Built with Streamlit for easy usage and deployment
 
 ## 🚀 Try it Live
-👉 your-app-link-here
+👉 
 
 ## 📚 Blog / Resources
 Interested in AI, robotics, and machine learning?
